@@ -1,10 +1,13 @@
-import { NavBar } from "../components/NavBar";
+import Footer from "../components/Footer";
+import NavBar  from "../components/NavBar";
 
-export const Appointments = () => {
+const Appointments = () => {
   return (
     <>
       <NavBar />
       <div>Appointments</div>
+      <Footer />
     </>
   );
 };
+export default Appointments;

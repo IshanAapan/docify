@@ -1,7 +1,7 @@
 import { NavLink } from "react-router";
 import "../assets/styles/NavBar.css";
-import { Button } from "./Button";
-export const NavBar = () => {
+import Button from "./Button";
+const NavBar = () => {
   return (
     <header>
       <nav>
@@ -37,3 +37,4 @@ export const NavBar = () => {
     </header>
   );
 };
+export default NavBar;

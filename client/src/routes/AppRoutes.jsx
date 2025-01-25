@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import { Home } from "../pages/Home";
-import { Doctors } from "../pages/Doctors";
-import { Appointments } from "../pages/Appointments";
-import { ApplyForDoctor } from "../pages/ApplyForDoctor";
-import { AboutUS } from "../pages/AboutUS";
-import { ContactUS } from "../pages/ContactUS";
-import { Profile } from "../pages/Profile";
-export const AppRoutes = () => {
+import Home from "../pages/Home";
+import Doctors from "../pages/Doctors";
+import Appointments from "../pages/Appointments";
+import ApplyForDoctor from "../pages/ApplyForDoctor";
+import AboutUS from "../pages/AboutUS";
+import ContactUS from "../pages/ContactUS";
+import Profile from "../pages/Profile";
+const AppRoutes = () => {
   return (
     <>
       <BrowserRouter>
@@ -24,3 +24,4 @@ export const AppRoutes = () => {
     </>
   );
 };
+export default AppRoutes;

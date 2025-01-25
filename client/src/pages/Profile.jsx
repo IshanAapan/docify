@@ -1,10 +1,13 @@
-import { NavBar } from "../components/NavBar";
+import Footer from "../components/Footer";
+import  NavBar  from "../components/NavBar";
 
-export const Profile = () => {
+ const Profile = () => {
   return (
     <>
       <NavBar />
       <div>Profile</div>
+      <Footer/>
     </>
   );
 };
+export default Profile

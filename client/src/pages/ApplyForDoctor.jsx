@@ -1,11 +1,13 @@
-import { NavBar } from "../components/NavBar";
+import Footer from "../components/Footer";
+import  NavBar  from "../components/NavBar";
 
-export const ApplyForDoctor = () => {
+const ApplyForDoctor = () => {
   return (
     <>
       <NavBar />
-
       <div>ApplyForDoctor</div>
+      <Footer />
     </>
   );
 };
+export default ApplyForDoctor;

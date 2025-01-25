@@ -1,10 +1,13 @@
-import { NavBar } from "../components/NavBar";
+import Footer from "../components/Footer";
+import NavBar  from "../components/NavBar";
 
-export const ContactUS = () => {
+const ContactUS = () => {
   return (
     <>
       <NavBar />
       <div>ContactUS</div>
+      <Footer/>
     </>
   );
 };
+export default ContactUS
