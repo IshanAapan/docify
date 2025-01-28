@@ -21,7 +21,7 @@ img:hover {
     cursor: pointer;
 }
 
-h1 {
+.home-heading {
     font-size: 2.5rem;
     letter-spacing: 2px;
 
