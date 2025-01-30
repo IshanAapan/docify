@@ -2,8 +2,6 @@
 
 .footer-container {
     width: 100%;
-    position: fixed;
-    bottom: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
