@@ -1,3 +1,4 @@
+// navBar.jsx
 import { NavLink } from "react-router";
 import "../assets/styles/NavBar.css";
 import Button from "./Button";
