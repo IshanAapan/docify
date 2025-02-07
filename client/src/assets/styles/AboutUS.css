@@ -2,8 +2,8 @@
 
 h1 {
     text-align: center;
-    letter-spacing: 0.3rem;
-    font-size: 2.7rem;
+    /* letter-spacing: 0.3rem; */
+    font-size: 2.2rem;
 }
 
 .about-container {
@@ -16,6 +16,20 @@ h1 {
     gap: 2rem;
 }
 
+@media only screen and (max-width: 1200px) {
+    /* .about-container {
+        display: flex;
+        flex-direction: column;
+        height: 44vh;
+        margin: 115px auto;
+    } */
+
+    .img {
+        width: 15%;
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
     .about-container {
         display: flex;
@@ -23,6 +37,7 @@ h1 {
         height: 44vh;
         margin: 115px auto;
     }
+
     .img {
         width: 70%;
     }
