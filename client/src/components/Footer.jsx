@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
-import "../assets/styles/Footer.css"
+import "../assets/styles/Footer.css";
+import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div
@@ -34,10 +35,16 @@ const Footer = () => {
               <NavLink to="/applyfordoctor">Apply for Doctor</NavLink>
             </li>
             <li>
-              <NavLink to="/aboutus">About US</NavLink>
+              {/* <NavLink to="/aboutus">About US</NavLink> */}
+              <Link to="aboutus" smooth={true} duration={500}>
+                About Us
+              </Link>
             </li>
             <li>
-              <NavLink to="/contactus">Contact US</NavLink>
+              {/* <NavLink to="/contactus">Contact US</NavLink> */}
+              <Link to="contactus" smooth={true} duration={500}>
+                Contact Us
+              </Link>
             </li>
             <li>
               <NavLink to="/profile">Profile</NavLink>
