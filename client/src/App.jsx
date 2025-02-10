@@ -1,10 +1,11 @@
 import "./assets/styles/global.css";
-import { AppRoutes } from "./routes/AppRoutes";
+import AppRoutes from "./routes/AppRoutes";
 
-export const App = () => {
+const App = () => {
   return (
     <>
       <AppRoutes />
     </>
   );
 };
+export default App;
