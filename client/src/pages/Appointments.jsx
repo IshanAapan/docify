@@ -1,11 +1,16 @@
 import Footer from "../components/Footer";
-import NavBar  from "../components/NavBar";
+import "../assets/styles/Appointments.css";
+import Table from "../components/Table";
 
 const Appointments = () => {
   return (
     <>
-      <NavBar />
-      <div>Appointments</div>
+      <div className="appointmentContainer">
+        <h1 className="appointmentsHeading">Your Appointments</h1>
+        <div className="table">
+          <Table />
+        </div>
+      </div>
       <Footer />
     </>
   );
