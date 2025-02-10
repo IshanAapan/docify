@@ -1,7 +1,9 @@
-import { NavLink } from "react-router";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import "../assets/styles/NavBar.css";
-import { Button } from "./Button";
-export const NavBar = () => {
+import Button from "./Button";
+
+const NavBar = () => {
   return (
     <header>
       <nav>
@@ -11,7 +13,7 @@ export const NavBar = () => {
 
         <ul className="nav-links">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <Link to="home">Home</Link>
           </li>
           <li>
             <NavLink to="/doctors">Doctors</NavLink>
@@ -23,10 +25,14 @@ export const NavBar = () => {
             <NavLink to="/applyfordoctor">Apply for Doctor</NavLink>
           </li>
           <li>
-            <NavLink to="/aboutus">About US</NavLink>
+            <Link to="aboutus" smooth={true} duration={500}>
+              About Us
+            </Link>
           </li>
           <li>
-            <NavLink to="/contactus">Contact US</NavLink>
+            <Link to="contactus" smooth={true} duration={500}>
+              Contact Us
+            </Link>
           </li>
           <li>
             <NavLink to="/profile">Profile</NavLink>
@@ -37,3 +43,4 @@ export const NavBar = () => {
     </header>
   );
 };
+export default NavBar;
